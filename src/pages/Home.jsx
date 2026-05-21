@@ -14,7 +14,7 @@ const Home = () => {
       id: 1,
       image: '/hero.png',
       subtitle: 'Nâng Cao Trải Nghiệm Du Khách',
-      title: 'Hành Trình Khám Phá Muôn Loài Tại Thảo Cầm Viên Hà Nội',
+      title: 'Hành Trình Khám Phá Muôn Loài Tại MixiZoo Hà Nội',
       description: '',
       buttonText: 'Mua Vé Ngay',
       link: '/tickets',
@@ -120,7 +120,7 @@ const Home = () => {
               </div>
               
               <div className="info-block text-right">
-                <div style={{fontSize: '0.9rem'}}>Thảo Cầm Viên</div>
+                <div style={{fontSize: '0.9rem'}}>MixiZoo</div>
                 <div style={{fontSize: '1.2rem', fontWeight: 'bold'}}>Thiên Nhiên Kỳ Thú</div>
               </div>
             </div>
@@ -135,7 +135,7 @@ const Home = () => {
             <div className="intro-text">
               <h2 className="section-title">Hơn Cả Một Sở Thú</h2>
               <p>
-                Tại Thảo Cầm Viên, chúng tôi không chỉ mang đến cho bạn những khoảnh khắc tuyệt vời khi ngắm nhìn các loài động vật hoang dã, mà còn là hành trình giáo dục về bảo tồn thiên nhiên.
+                Tại MixiZoo, chúng tôi không chỉ mang đến cho bạn những khoảnh khắc tuyệt vời khi ngắm nhìn các loài động vật hoang dã, mà còn là hành trình giáo dục về bảo tồn thiên nhiên.
               </p>
               <p>
                 Hãy đến và cảm nhận sự kết nối sâu sắc giữa con người và thế giới tự nhiên. Bởi vì khi động vật hoang dã phát triển, mọi sự sống đều phát triển.
@@ -164,7 +164,7 @@ const Home = () => {
         <div className="container">
           <div className="section-header text-center">
             <h2 className="section-title">Gương Mặt Tiêu Biểu</h2>
-            <p className="section-subtitle">Gặp gỡ những "cư dân" nổi bật nhất tại Thảo Cầm Viên</p>
+            <p className="section-subtitle">Gặp gỡ những "cư dân" nổi bật nhất tại MixiZoo</p>
           </div>
           
           <div className="animal-grid">
