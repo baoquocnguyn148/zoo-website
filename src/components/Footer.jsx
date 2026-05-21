@@ -31,9 +31,9 @@ const Footer = () => {
         <div className="footer-col">
           <h3>Thông tin liên hệ</h3>
           <ul className="contact-info">
-            <li><MapPin size={18} /> 2 Nguyễn Bỉnh Khiêm, Quận 1, TP.HCM</li>
+            <li><MapPin size={18} /> Số 1 Cầu Giấy, Giảng Võ, Hà Nội</li>
             <li><Phone size={18} /> (028) 3829 1466</li>
-            <li><Mail size={18} /> contact@thaocamvien.org</li>
+            <li><Mail size={18} /> hanoizoo.org</li>
           </ul>
         </div>
       </div>
