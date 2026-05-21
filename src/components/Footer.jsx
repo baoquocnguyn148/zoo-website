@@ -33,7 +33,7 @@ const Footer = () => {
           <ul className="contact-info">
             <li><MapPin size={18} /> Số 1 Cầu Giấy, Giảng Võ, Hà Nội</li>
             <li><Phone size={18} /> (028) 3829 1466</li>
-            <li><Mail size={18} /> hanoizoo@hanoizoo.org</li>
+            <li><Mail size={18} /> contact@hanoi.org</li>
           </ul>
         </div>
       </div>
