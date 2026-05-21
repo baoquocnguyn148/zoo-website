@@ -31,15 +31,15 @@ const Footer = () => {
         <div className="footer-col">
           <h3>Thông tin liên hệ</h3>
           <ul className="contact-info">
-            <li><MapPin size={18} /> 2 Nguyễn Bỉnh Khiêm, Quận 1, TP.HCM</li>
+            <li><MapPin size={18} /> Số 1 Cầu Giấy, Giảng Võ, Hà Nội</li>
             <li><Phone size={18} /> (028) 3829 1466</li>
-            <li><Mail size={18} /> contact@thaocamvien.org</li>
+            <li><Mail size={18} /> hanoizoo@hanoizoo.org</li>
           </ul>
         </div>
       </div>
       
       <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} Vườn Thú Hà Nội. Lấy cảm hứng từ San Diego Zoo. Không dành cho mục đích thương mại.</p>
+        <p>&copy; {new Date().getFullYear()} Vườn Thú Hà Nội</p>
       </div>
     </footer>
   );
