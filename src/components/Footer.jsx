@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer-col">
           <Link to="/" className="footer-logo">
             <Leaf className="logo-icon" />
-            <span>Vườn Thú Hà Nội</span>
+            <span>Sở Thú</span>
           </Link>
           <p className="text-light mt-3">
             Hòa mình vào thiên nhiên hoang dã. Cùng chung tay bảo vệ sự đa dạng sinh học và các loài động vật quý hiếm.

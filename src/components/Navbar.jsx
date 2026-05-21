@@ -42,7 +42,7 @@ const Navbar = () => {
       <div className="container nav-container">
         <Link to="/" className="logo">
           <Leaf className="logo-icon" />
-          <span>Vườn Thú Hà Nội<br/><small>Thiên Nhiên Kỳ Thú</small></span>
+          <span>Sở Thú<br/><small>Thiên Nhiên Kỳ Thú</small></span>
         </Link>
         
         <nav className={`nav-links ${mobileMenuOpen ? 'active' : ''}`}>

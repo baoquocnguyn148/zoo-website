@@ -6,7 +6,7 @@ const initialBanners = [
     id: 1,
     image: '/hero.png',
     subtitle: 'Nâng Cao Trải Nghiệm Du Khách',
-    title: 'Hành Trình Khám Phá Muôn Loài Tại Vườn Thú Hà Nội',
+    title: 'Hành Trình Khám Phá Muôn Loài Tại Sở Thú',
     description: '',
     buttonText: 'Mua Vé Ngay',
     link: '/tickets',
