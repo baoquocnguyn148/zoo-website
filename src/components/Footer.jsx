@@ -37,10 +37,6 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      
-      <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} Thảo Cầm Viên. Lấy cảm hứng từ San Diego Zoo. Không dành cho mục đích thương mại.</p>
-      </div>
     </footer>
   );
 };
