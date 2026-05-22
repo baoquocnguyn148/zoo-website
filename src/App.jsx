@@ -6,6 +6,7 @@ import Tickets from './pages/Tickets';
 import Policies from './pages/Policies';
 import Login from './pages/Login';
 import AnimalDetail from './pages/AnimalDetail';
+import ChatBot from './components/ChatBot';
 
 // Admin Pages
 import AdminLayout from './pages/admin/AdminLayout';
@@ -35,6 +36,9 @@ function App() {
         </Routes>
       </div>
       
+      {/* ChatBot - hiển thị trên tất cả các trang public */}
+      <ChatBot />
+
       {/* Admin Routes */}
       <Routes>
         <Route path="/admin/login" element={<AdminLogin />} />
