@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Navigate, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Chatbot from './components/Chatbot';
 import Home from './pages/Home';
 import Tickets from './pages/Tickets';
 import Policies from './pages/Policies';
@@ -45,6 +46,12 @@ function App() {
           <Route path="banners" element={<AdminBanners />} />
           <Route path="settings" element={<div style={{padding:'2rem'}}>Cài đặt hệ thống</div>} />
         </Route>
+      </Routes>
+
+      {/* Chatbot Widget - Only on non-admin routes */}
+      <Routes>
+        <Route path="/admin/*" element={null} />
+        <Route path="*" element={<Chatbot />} />
       </Routes>
     </Router>
   );
