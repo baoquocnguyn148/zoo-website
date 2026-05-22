@@ -14,7 +14,9 @@ const findAnimal = (text) => {
     const nameNorm = normalize(a.name);
     const idNorm = normalize(a.id);
     const sciNorm = normalize(a.scientificName);
-    return norm.includes(nameNorm) || norm.includes(idNorm) || norm.includes(sciNorm)
+    return norm.includes(nameNorm)
+      || (norm.length >= 3 && nameNorm.includes(norm))
+      || norm.includes(idNorm) || norm.includes(sciNorm)
       || nameNorm.split(' ').some(w => w.length > 2 && norm.includes(w));
   });
 };
