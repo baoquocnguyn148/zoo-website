@@ -14,7 +14,7 @@ const Home = () => {
       id: 1,
       image: '/hero.png',
       subtitle: 'Nâng Cao Trải Nghiệm Du Khách',
-      title: 'Hành Trình Khám Phá Muôn Loài Tại Sở Thú',
+      title: 'Hành Trình Khám Phá Muôn Loài Tại Sở Thú Hà Nội',
       description: '',
       buttonText: 'Mua Vé Ngay',
       link: '/tickets',
